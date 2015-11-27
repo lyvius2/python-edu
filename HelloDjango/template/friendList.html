@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/static/css/myStyle.css" />
+</head>
+<body>
+<h1>친구 목록입니다.</h1>
+<ul>
+	{% for item in friends %}
+	<li>{{item}}</li>
+	{% endfor %}
+</ul>
+</body>
+</html>

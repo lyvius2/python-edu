@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/static/css/myStyle.css"/>
+</head>
+<body>
+<h1>{{name}}</h1>
+<!-- jsp : <% %>
+     php : <? ?> -->
+<img src="/static/images/fly.jpg"/>
+</body>
+</html>

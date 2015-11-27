@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<caption>회원목록입니다.</caption>
+	<table>
+		<thead>
+			<tr>
+				<th>번호</th>
+				<th>이름</th>
+				<th>주소</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for item in members %}
+			<tr>
+				<td>{{ item.0 }}</td>
+				<td>{{ item.1 }}</td>
+				<td>{{ item.2 }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>
